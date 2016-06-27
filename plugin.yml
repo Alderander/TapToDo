@@ -9,7 +9,7 @@ commands:
   permission: taptodo.command
   description: TapToDo command!
   usage: /t <add <command> / del <command> / delall / name / list>
- tr:
+ tr2:
   permission: taptodo.remote
   description: Remote block managment
   usage: /tr <name> <add <command> / del <command> / delall / name / list>
