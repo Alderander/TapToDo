@@ -26,7 +26,7 @@ class TapToDo extends PluginBase implements CommandExecutor, Listener{
         $this->parseBlockData();
     }
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-        if($cmd->getName() == "tr"){
+        if($cmd->getName() == "tr2"){
             if(isset($args[1])){
                 if($sender->hasPermission("taptodo.command." . $args[1])){
                     switch($args[1]){
