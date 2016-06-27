@@ -2,10 +2,10 @@ name: TapToDo
 main: taptodo\TapToDo
 version: 2.2.1
 author: Falk
-api: [1.0.0]
+api: [1.0.0, 2.0.0]
 load: POSTWORLD
 commands:
- t:
+ td2:
   permission: taptodo.command
   description: TapToDo command!
   usage: /t <add <command> / del <command> / delall / name / list>
